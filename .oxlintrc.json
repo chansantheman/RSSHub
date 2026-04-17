@@ -565,6 +565,12 @@
             "rules": {
                 "@typescript-eslint/no-unnecessary-template-expression": "off"
             }
+        },
+        {
+            "files": ["eslint.config.mjs"],
+            "rules": {
+                "simple-import-sort/imports": "off"
+            }
         }
     ]
 }
